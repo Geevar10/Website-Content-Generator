@@ -1,15 +1,61 @@
-# Website-Content-Generator
-This is a **Professional Website Generator** built with Gradio that creates complete, modern websites for businesses.
+# 🌐 Professional Website Generator
+A **Professional Website Generator** built with **Gradio** that automatically creates complete, modern, and responsive websites for businesses based on user inputs.
 
-**Key Features:**
--**AI-Powered Content Generation** - Uses OpenAI API to create tailored website content, with fallback to mock data
+---
 
--**Modern UI/UX** - Generates responsive websites with gradient designs, smooth animations, and interactive elements
+## 🚀 Features
 
--**Complete Website Structure** - Includes hero section, about, services, contact form, and footer
+- 🧠 **AI-Powered Content Generation**  
+  Uses the OpenAI API to generate tailored website content (with mock data fallback if the API key is not set).
 
--**SEO Optimized** - Automatically generates meta tags, structured content, and keyword optimization
+- 🎨 **Modern UI/UX**  
+  Clean, responsive, and gradient-based design with smooth animations and interactive sections.
 
--**User-Friendly Interface** - Simple form inputs for business name, industry, target audience, keywords, and tone
+- 🧱 **Complete Website Structure**  
+  Automatically generates hero section, about, services, contact form, and footer.
 
--**Quick Examples** - Pre-built templates for tech startups, restaurants, and fitness studios
+- 🔍 **SEO Optimized**  
+  Generates structured content, meta tags, and keyword-optimized descriptions.
+
+- ⚙️ **User-Friendly Interface**  
+  Simple Gradio-based form inputs — just enter your business details, and the site is instantly generated.
+
+- 🧩 **Pre-Built Templates**  
+  Includes quick examples for:
+  - Tech startups  
+  - Restaurants  
+  - Fitness studios  
+
+---
+
+## 🖼️ **Example Output**
+
+### Business Example
+**Business Name:** InnovateTech Solutions  
+**Industry:** Software Development  
+**Target Audience:** Small to medium businesses  
+**SEO Keywords:** web development, mobile apps, digital transformation  
+**Tone:** Professional  
+
+Generated result 👇  
+
+![Website Example](./Screenshot%202025-11-06%20001119.png)
+
+---
+
+## 🛠️ **Tech Stack**
+
+- **Python**
+- **Gradio** for UI
+- **OpenAI API** for content generation
+- **HTML/CSS** (auto-generated from templates)
+- **Mock Mode** for testing without API key
+
+---
+
+## ⚙️ **Setup Instructions**
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo-name>.git
+   cd <your-repo-name>
